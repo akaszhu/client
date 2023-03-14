@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "https://client-qhhs.onrender.com/"
+    baseURL: "https://server-mq5r.onrender.com"
   });
   API.interceptors.request.use((req) => {
     if (localStorage.getItem("Profile")) {
