@@ -1,0 +1,253 @@
+.main-nav{
+    min-height: 50px;
+    width: 100%;
+    margin: 0% auto;
+    border-top: solid 3px #5d3be3ce;
+    background-color: #00425A;
+    box-shadow: 0px 1px 5px #00000033;
+    z-index: 5;
+    top: 0%;
+    left: 0%;
+
+    display: flex;
+    justify-content: center;
+    align-items :center;
+} 
+img{
+    height: 150px;
+    width: 150px;
+   padding-left: 0%;
+
+}
+
+.nav-logo{
+    padding-left: 0%;
+}
+.navbar{
+    height: 100%;
+    min-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    color:  #00425A;
+    font-family: 'Raleway',sans-serif; font-size: 40px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase;
+}
+.nav-item{
+    width:100px;
+    margin: 0px 3px;
+    font-size: small;
+    font-weight: 500;
+    text-decoration:none;
+    color: rgb(69, 69, 69);
+    transition: 0.2s;
+}
+/* .searchTerm:focus{
+    color: #00B4CC;
+  }
+   */
+  /* .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  } */
+  
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 20px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  @import
+  url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+  
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.nav-btn{
+    
+    cursor:pointer;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+}
+
+.nav-item:hover{
+    background-color: rgb(226,226,226);
+}
+
+.navbar form{
+    flex-grow:1;
+    padding: 8px 12px;
+    position: relative;
+
+}
+/* .navbar form input{
+    min-width: 90%;
+    margin: 0;
+    padding: 8px 10px 8px 32px;
+    font-size: 13px;
+    border: solid 1px black;
+    border-radius: 3px;
+} */
+.navbar form icon{
+    position: absolute;
+    left:25px;
+    top:8px;
+}
+
+/* .navbar form .search-icon{
+    position: absolute;  
+    left: 15px;
+
+    height: 40px;
+    width: 40px;
+
+} */
+
+.nav-links{
+    padding: 7px 13px;
+    border: solid1px blue;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    cursor: pointer ;
+}
+
+.nav-link:hover{
+    background-color: #d3e4eb;
+}
+
+
+/* effect-shine */
+strong.name:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+
+/* CSS */
+.button-87 {
+
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight:400;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #1F8A70 0%, #F09819  51%, #BFDB38  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-87:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button-87:active {
+    transform: scale(0.95);
+  }
+
+ 
